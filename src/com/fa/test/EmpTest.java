@@ -9,8 +9,8 @@ import org.springframework.core.io.ClassPathResource;
 public class EmpTest {
 	
 	public void addData(String data) {
-		System.out.println("data "+data);
-		if(data.equals("data")) {
+		
+		if(data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Welcome to Java developer");
 		}
 	}
