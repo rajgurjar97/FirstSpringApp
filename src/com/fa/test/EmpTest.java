@@ -14,6 +14,8 @@ public class EmpTest {
 			System.out.println("Welcome to Java developer");
 		}
 	}
+	public void added(){
+	}
 
 	public static void main(String[] args) {
 		
