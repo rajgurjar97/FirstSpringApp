@@ -7,6 +7,13 @@ import org.springframework.core.io.ClassPathResource;
 
 
 public class EmpTest {
+	
+	public void addData(String data) {
+		System.out.println("data "+data);
+		if(data.equals("data")) {
+			System.out.println("Welcome to Java developer");
+		}
+	}
 
 	public static void main(String[] args) {
 		
